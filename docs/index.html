@@ -1,77 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="/ember-semantic-ui/icon/favicon.png">
+    <meta charset="utf-8">
     <title>ember-semantic-ui</title>
-    <link rel="stylesheet" href="/ember-semantic-ui/css/pure.css" type="text/css">
-    <link rel="stylesheet" href="/ember-semantic-ui/css/base.css" type="text/css">
-    <link rel="stylesheet" href="/ember-semantic-ui/css/semantic.min.css" type="text/css">
-    <link rel="stylesheet" href="/ember-semantic-ui/css/vendor.css" type="text/css">
+    <link rel="stylesheet" href="./assets/vendor/prettify/prettify-min.css">
+    <link rel="stylesheet" href="./assets/css/main.css" id="site_styles">
+    <script src="http://yui.yahooapis.com/combo?3.8.0pr2/build/yui/yui-min.js"></script>
 </head>
-<body>
-  <div id="container">
-    <div class="m-nav">
-    <div class="wrap">
-        <a class="home" href="/ember-semantic-ui/">
-          ember-semantic-ui
-        </a>
-        <ul class="nav external" >
-            <li>
-                <a href="https://github.com/wecatch/ember-semantic-ui">Github</a>
-            </li>
-            <li>
-                <a href="http://wecatch.me">Wecatch</a>
-            </li>
-        </ul>
-        <ul class="nav internal" >
-            
-                <li><a href="/ember-semantic-ui/">Home</a></li>
-            
-                <li><a href="/ember-semantic-ui/demo/">Demo</a></li>
-            
-        </ul>
-    </div>
-</div>
+<body class="yui3-skin-sam">
 
-    <div class="wrap">
-    <div class="pure-g">
-        <div class="pure-u-1-4">
-            <aside id="sidebar" role="navigation">
-  <div class="inner"><strong class="sidebar-title">getting_started</strong><a href="get-started.html" class="sidebar-link">overview</a></div>
-</aside>
-        </div>
-        <div class="pure-u-3-4 m-article">
-            <header class="article-header">
-                <h1 class="article-title" itemprop="name">getting started</h1>
-            </header>
-            <div class="content">
-                <h3 id="Install" class="heading"><a href="#Install" class="headerlink" title="Install"></a>Install<a class="anchor" href="#Install" aria-hidden="true"></a></h3><p>In your ember-cli project, install this addon from npm </p>
-<figure class="highlight cmake"><table><tr><td class="code"><pre><span class="line">ember <span class="keyword">install</span> ember-semantic-ui</span><br></pre></td></tr></table></figure>
-<p>or install the latest version from github</p>
-<figure class="highlight groovy"><table><tr><td class="code"><pre><span class="line">npm install git+<span class="string">https:</span><span class="comment">//github.com/wecatch/ember-semantic-ui --save-dev</span></span><br></pre></td></tr></table></figure>
-<h3 id="Use_this_addon_in_your_ember_application" class="heading"><a href="#Use_this_addon_in_your_ember_application" class="headerlink" title="Use this addon in your ember application"></a>Use this addon in your ember application<a class="anchor" href="#Use_this_addon_in_your_ember_application" aria-hidden="true"></a></h3><p>1.Put semantic ui dependency in your ember-cli project public/assets like this</p>
-<figure class="highlight stylus"><table><tr><td class="code"><pre><span class="line">├── semantic<span class="class">.css</span></span><br><span class="line">├── semantic<span class="class">.js</span></span><br><span class="line">├── semantic<span class="class">.min</span><span class="class">.css</span></span><br><span class="line">├── semantic<span class="class">.min</span><span class="class">.js</span></span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure>
-<p>2.Modify app/index.html and import semanti-ui js file and css file</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="title">link</span> <span class="attribute">rel</span>=<span class="value">"stylesheet"</span> <span class="attribute">href</span>=<span class="value">"assets/semantic.min.css"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="title">script</span> <span class="attribute">src</span>=<span class="value">"assets/semantic.min.js"</span>&gt;</span><span class="undefined"></span><span class="tag">&lt;/<span class="title">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>3.Start ember app </p>
-<figure class="highlight axapta"><table><tr><td class="code"><pre><span class="line">ember <span class="keyword">server</span></span><br></pre></td></tr></table></figure>
-<p>4.Then you can use this addon components in your ember app </p>
-<figure class="highlight crystal"><table><tr><td class="code"><pre><span class="line"><span class="expansion">&#123;&#123;ui-input&#125;&#125;</span></span><br></pre></td></tr></table></figure>
-
+<div id="doc">
+    <div class="yui3-g">
+        <div id="sidebar" class="yui3-u">
+            <div class="logo">
+              <a href="./index.html">
+                  ember-semantic-ui
+              </a>
             </div>
+            
+            <div id="modules" class="sidebox">
+                <div class="hd">
+                    <h2 class="no-toc">Modules</h2>
+                </div>
+                <div class="bd">
+                    <ul>
+                            <li><a href="./modules/components.html">components</a>
+                            </li>
+                            <li><a href="./modules/mixins.html">mixins</a>
+                            </li>
+                            <li><a href="./modules/utils.html">utils</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div id="classes" class="sidebox">
+                <div class="hd">
+                    <h2 class="no-toc">Classes</h2>
+                </div>
+                <div class="bd">
+                    <ul>
+                            <li><a href="./classes/components.FileInput.html">components.FileInput</a></li>
+                            <li><a href="./classes/components.UiAnimatedButton.html">components.UiAnimatedButton</a></li>
+                            <li><a href="./classes/components.UiButton.html">components.UiButton</a></li>
+                            <li><a href="./classes/components.UiCheckbox.html">components.UiCheckbox</a></li>
+                            <li><a href="./classes/components.UiCheckboxGroup.html">components.UiCheckboxGroup</a></li>
+                            <li><a href="./classes/components.UiContainer.html">components.UiContainer</a></li>
+                            <li><a href="./classes/components.UiDateInput.html">components.UiDateInput</a></li>
+                            <li><a href="./classes/components.UiDateTimeInput.html">components.UiDateTimeInput</a></li>
+                            <li><a href="./classes/components.UiDropdownMenu.html">components.UiDropdownMenu</a></li>
+                            <li><a href="./classes/components.UiForm.html">components.UiForm</a></li>
+                            <li><a href="./classes/components.UiFormInput.html">components.UiFormInput</a></li>
+                            <li><a href="./classes/components.UiGrid.html">components.UiGrid</a></li>
+                            <li><a href="./classes/components.UiInput.html">components.UiInput</a></li>
+                            <li><a href="./classes/components.UiInputTags.html">components.UiInputTags</a></li>
+                            <li><a href="./classes/components.UiLabel.html">components.UiLabel</a></li>
+                            <li><a href="./classes/components.UiLabeledButton.html">components.UiLabeledButton</a></li>
+                            <li><a href="./classes/components.UiLeftLabeledButton.html">components.UiLeftLabeledButton</a></li>
+                            <li><a href="./classes/components.UiMenu.html">components.UiMenu</a></li>
+                            <li><a href="./classes/components.UiMessage.html">components.UiMessage</a></li>
+                            <li><a href="./classes/components.UiModal.html">components.UiModal</a></li>
+                            <li><a href="./classes/components.UiModalContent.html">components.UiModalContent</a></li>
+                            <li><a href="./classes/components.UiModalFoot.html">components.UiModalFoot</a></li>
+                            <li><a href="./classes/components.UiModalTitle.html">components.UiModalTitle</a></li>
+                            <li><a href="./classes/components.UiMultiSelect.html">components.UiMultiSelect</a></li>
+                            <li><a href="./classes/components.UiPointingLabel.html">components.UiPointingLabel</a></li>
+                            <li><a href="./classes/components.UiPopup.html">components.UiPopup</a></li>
+                            <li><a href="./classes/components.UiPopupContent.html">components.UiPopupContent</a></li>
+                            <li><a href="./classes/components.UiProgress.html">components.UiProgress</a></li>
+                            <li><a href="./classes/components.UiRadio.html">components.UiRadio</a></li>
+                            <li><a href="./classes/components.UiRadioGroup.html">components.UiRadioGroup</a></li>
+                            <li><a href="./classes/components.UiRow.html">components.UiRow</a></li>
+                            <li><a href="./classes/components.UiSegment.html">components.UiSegment</a></li>
+                            <li><a href="./classes/components.UiSelect.html">components.UiSelect</a></li>
+                            <li><a href="./classes/components.UiTabMenu.html">components.UiTabMenu</a></li>
+                            <li><a href="./classes/components.UiTabSegment.html">components.UiTabSegment</a></li>
+                            <li><a href="./classes/components.UiTextContainer.html">components.UiTextContainer</a></li>
+                            <li><a href="./classes/components.UiUploader.html">components.UiUploader</a></li>
+                            <li><a href="./classes/components.UiVerticalMenu.html">components.UiVerticalMenu</a></li>
+                            <li><a href="./classes/mixins.FileInputBase.html">mixins.FileInputBase</a></li>
+                            <li><a href="./classes/mixins.UiButtonBase.html">mixins.UiButtonBase</a></li>
+                            <li><a href="./classes/mixins.UiCheckboxBase.html">mixins.UiCheckboxBase</a></li>
+                            <li><a href="./classes/mixins.UiCheckboxGroupBase.html">mixins.UiCheckboxGroupBase</a></li>
+                            <li><a href="./classes/mixins.UiInputBase.html">mixins.UiInputBase</a></li>
+                            <li><a href="./classes/mixins.UiLabelBase.html">mixins.UiLabelBase</a></li>
+                            <li><a href="./classes/mixins.uiSegmentBase.html">mixins.uiSegmentBase</a></li>
+                            <li><a href="./classes/mixins.UiSelectBase.html">mixins.UiSelectBase</a></li>
+                            <li><a href="./classes/utils.EmberUploader.html">utils.EmberUploader</a></li>
+                            <li><a href="./classes/utils.FileObject.html">utils.FileObject</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+            <div class="version-info">
+              Version: 0.1.0
+            </div>
+            
+        </div>
+
+        <div id="main" class="yui3-u">
+            <div class="content"><h1>Ember-semantic-ui</h1>
+<p>This Ember addon support many UI components based on <a href="http://semantic-ui.com">semantic-ui</a>, Anyone can use this addon in their Ember project.</p>
+<p><a href="http://wecatch.me/ember-semantic-ui/demo/">Demo</a></p>
+<h2>Components</h2>
+<ul>
+<li>ui-message</li>
+<li>ui-button</li>
+<li>ui-labeled-button</li>
+<li>ui-left-labeled-button</li>
+<li>ui-label</li>
+<li>ui-pointing-label</li>
+<li>ui-radio-group</li>
+<li>ui-checkbox-group</li>
+<li>ui-checkbox</li>
+<li>ui-form-input</li>
+<li>ui-form</li>
+<li>ui-input-tags</li>
+<li>ui-input</li>
+<li>ui-date-input</li>
+<li>ui-date-time-input</li>
+<li>ui-modal</li>
+<li>ui-modal-title</li>
+<li>ui-modal-content</li>
+<li>ui-modal-foot</li>
+<li>ui-pop-up</li>
+<li>ui-select</li>
+<li>ui-multi-select</li>
+<li>ui-dropdown-menu</li>
+<li>ui-panel</li>
+<li>ui-select</li>
+<li>ui-uploader</li>
+<li>file-input</li>
+</ul>
+<h1>Getting Started</h1>
+<h2>Install</h2>
+<p>In your ember-cli project, install this addon from npm</p>
+<pre><code>ember install ember-semantic-ui
+</code></pre>
+<p>or install the latest version from github</p>
+<pre><code>npm install git+https://github.com/wecatch/ember-semantic-ui --save-dev
+</code></pre>
+<h2>Dummy app</h2>
+<pre><code>git clone https://github.com/wecatch/ember-semantic-ui
+npm install
+bower install
+ember server
+</code></pre>
+<h2>Use this addon in your ember application</h2>
+<p>1.Modify app/index.html and import semanti-ui js file and css file</p>
+<pre><code>&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/semantic.min.css&quot;&gt;
+&lt;script src=&quot;assets/semantic.min.js&quot;&gt;&lt;/script&gt;
+</code></pre>
+<p>2.Start ember app</p>
+<pre><code>ember server 
+</code></pre>
+<p>3.Then you can use this addon components in your ember app</p>
+<pre><code>{{ui-input}}
+</code></pre>
+<h1>Thanks</h1>
+<p>The <a href="https://github.com/benefitcloud/ember-uploader">ember-uploader</a> project support this addon file-uploader. Thanks to their <a href="https://github.com/benefitcloud">author</a></p>
+<h1>Release notes</h1>
+<h2>0.0.8</h2>
+<ul>
+<li>added ui-pop-up, ui-date-input, ui-date-time-input</li>
+<li>fix many bugs</li>
+<li>rework some component according to <a href="https://poteto.github.io/component-best-practices/">component-best-practices</a></li>
+</ul>
+<h2>0.0.7</h2>
+<ul>
+<li>remove ui-remote-select, ui-link, ui-dropdown</li>
+<li>added ui-label, ui-labeled-button, ui-animated-button, ui-dropdown-menu, ui-left-labeled-button, ui-pointing-label</li>
+<li>redesign ui-select, ui-multi-select, ui-checkbox-group, ui-radio-group</li>
+<li>ui-alter renamed to ui-message</li>
+</ul>
+<p><strong>Tip</strong></p>
+<p>0.0.7 is not backward compatible, be careful to update</p>
+<h2>0.0.5</h2>
+<p><strong>2015-12-09</strong></p>
+<ul>
+<li>ui-uploader,ui-checkbox,file-object fix some bugs</li>
+</ul>
+<h2>0.0.3</h2>
+<p><strong>2015-10-21</strong></p>
+<ul>
+<li>add file uploader component</li>
+<li>ui-input, ui-select, ui-checkbox-group when value change, change ui render</li>
+</ul>
+
+</div>
         </div>
     </div>
 </div>
-
-  </div>
-    <div class="footer">
-    <p>
-        Powered by <a href="http://wecatch.me">wecatch</a>
-    </p>
-</div>
-    <script src="/ember-semantic-ui/js/vendor.js" type="text/javascript"></script>
-    <script src="/ember-semantic-ui/js/semantic.min.js" type="text/javascript"></script>
-    <script src="/ember-semantic-ui/js/dummy.js" type="text/javascript"></script>
+<script src="./assets/vendor/prettify/prettify-min.js"></script>
+<script>prettyPrint();</script>
+<script src="./assets/js/yui-prettify.js"></script>
 </body>
 </html>
