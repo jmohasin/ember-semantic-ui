@@ -1962,7 +1962,18 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 20,
+            "line": 19,
+            "description": "file request ajax setting traditional, by default true",
+            "itemtype": "property",
+            "name": "traditional",
+            "type": "Boolean",
+            "class": "components.UiUploader",
+            "module": "components",
+            "namespace": "components"
+        },
+        {
+            "file": "addon/components/ui-uploader.js",
+            "line": 26,
             "description": "activate upload action",
             "itemtype": "event",
             "name": "start",
@@ -1979,7 +1990,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 50,
+            "line": 57,
             "description": "deactivate upload action",
             "itemtype": "event",
             "name": "abort",
@@ -1996,7 +2007,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 69,
+            "line": 76,
             "description": "delete file from queue",
             "itemtype": "event",
             "name": "",
@@ -2013,7 +2024,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 79,
+            "line": 86,
             "description": "The upload url",
             "itemtype": "property",
             "name": "url",
@@ -2025,7 +2036,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 88,
+            "line": 95,
             "description": "The root component element",
             "itemtype": "property",
             "name": "tagName",
@@ -2037,7 +2048,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 97,
+            "line": 104,
             "description": "A array contain class names apply to root element",
             "itemtype": "property",
             "name": "classNames",
@@ -2049,7 +2060,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 106,
+            "line": 113,
             "description": "To allow  file autoUpload",
             "itemtype": "property",
             "name": "autoUpload",
@@ -2061,7 +2072,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 115,
+            "line": 122,
             "description": "upload file queue",
             "itemtype": "property",
             "name": "queue",
@@ -2073,7 +2084,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 124,
+            "line": 131,
             "description": "upload multiple file",
             "itemtype": "property",
             "name": "multiple",
@@ -2085,7 +2096,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 133,
+            "line": 140,
             "description": "extra params",
             "itemtype": "property",
             "name": "params",
@@ -2097,7 +2108,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 142,
+            "line": 149,
             "description": "file accept",
             "itemtype": "property",
             "name": "accept",
@@ -2109,7 +2120,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 151,
+            "line": 158,
             "itemtype": "method",
             "name": "didInsertElement",
             "observes": "\"didInsertElement\" event",
@@ -2123,7 +2134,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 178,
+            "line": 185,
             "itemtype": "method",
             "name": "willDestroy empty queue",
             "return": {
@@ -2135,7 +2146,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 188,
+            "line": 195,
             "itemtype": "method",
             "name": "willDestroy empty queue",
             "return": {
@@ -2147,7 +2158,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 199,
+            "line": 206,
             "itemtype": "method",
             "name": "inputStyle",
             "return": {
@@ -2160,7 +2171,7 @@
         },
         {
             "file": "addon/components/ui-uploader.js",
-            "line": 217,
+            "line": 224,
             "itemtype": "method",
             "name": "labelStyle",
             "return": {
@@ -2174,6 +2185,17 @@
         {
             "file": "addon/mixins/file-input-base.js",
             "line": 16,
+            "description": "file request ajax setting traditional, by default true",
+            "itemtype": "property",
+            "name": "traditional",
+            "type": "Boolean",
+            "class": "mixins.FileInputBase",
+            "module": "mixins",
+            "namespace": "mixins"
+        },
+        {
+            "file": "addon/mixins/file-input-base.js",
+            "line": 22,
             "description": "file object instance see {{#crossLink \" file-object\"}}{{/crossLink}}",
             "itemtype": "property",
             "name": "fileObject",
@@ -2184,7 +2206,7 @@
         },
         {
             "file": "addon/mixins/file-input-base.js",
-            "line": 22,
+            "line": 28,
             "description": "style",
             "itemtype": "property",
             "name": "style",
@@ -2195,7 +2217,7 @@
         },
         {
             "file": "addon/mixins/file-input-base.js",
-            "line": 28,
+            "line": 34,
             "description": "ember uploader instance see {{#crossLink \"utils.EmberUploader\"}}{{/crossLink}}",
             "itemtype": "property",
             "name": "uploader",
@@ -2206,7 +2228,7 @@
         },
         {
             "file": "addon/mixins/file-input-base.js",
-            "line": 35,
+            "line": 41,
             "description": "upload url",
             "itemtype": "property",
             "name": "url",
@@ -2217,7 +2239,7 @@
         },
         {
             "file": "addon/mixins/file-input-base.js",
-            "line": 42,
+            "line": 48,
             "description": "upload request method",
             "itemtype": "property",
             "name": "method",
@@ -2229,7 +2251,7 @@
         },
         {
             "file": "addon/mixins/file-input-base.js",
-            "line": 50,
+            "line": 56,
             "description": "extra parameters for upload",
             "itemtype": "property",
             "name": "extra",
@@ -2241,7 +2263,7 @@
         },
         {
             "file": "addon/mixins/file-input-base.js",
-            "line": 58,
+            "line": 64,
             "description": "the upload file parameter name",
             "itemtype": "property",
             "name": "paramName",
@@ -2253,7 +2275,7 @@
         },
         {
             "file": "addon/mixins/file-input-base.js",
-            "line": 66,
+            "line": 72,
             "description": "the upload file is finished",
             "itemtype": "property",
             "name": "isUploaded",
@@ -2265,7 +2287,7 @@
         },
         {
             "file": "addon/mixins/file-input-base.js",
-            "line": 74,
+            "line": 80,
             "description": "the upload request status",
             "itemtype": "property",
             "name": "isUploading",
@@ -2277,7 +2299,7 @@
         },
         {
             "file": "addon/mixins/file-input-base.js",
-            "line": 82,
+            "line": 88,
             "description": "allow autoUpload",
             "itemtype": "property",
             "name": "autoUpload",
@@ -2289,7 +2311,19 @@
         },
         {
             "file": "addon/mixins/file-input-base.js",
-            "line": 109,
+            "line": 97,
+            "description": "multiple file or not, by default false",
+            "itemtype": "property",
+            "name": "multiple",
+            "type": "Boolean",
+            "default": "false",
+            "class": "mixins.FileInputBase",
+            "module": "mixins",
+            "namespace": "mixins"
+        },
+        {
+            "file": "addon/mixins/file-input-base.js",
+            "line": 127,
             "description": "start upload action",
             "itemtype": "event",
             "name": "start",
@@ -2299,7 +2333,7 @@
         },
         {
             "file": "addon/mixins/file-input-base.js",
-            "line": 138,
+            "line": 166,
             "description": "abort upload action",
             "itemtype": "event",
             "name": "abort",
@@ -2931,6 +2965,18 @@
         {
             "file": "addon/utils/ember-uploader.js",
             "line": 34,
+            "description": "ajax request settings traditional, by default false",
+            "itemtype": "property",
+            "name": "traditional",
+            "type": "Boolean",
+            "default": "true",
+            "class": "utils.EmberUploader",
+            "module": "utils",
+            "namespace": "utils"
+        },
+        {
+            "file": "addon/utils/ember-uploader.js",
+            "line": 42,
             "description": "ajax request status",
             "itemtype": "property",
             "name": "isUploading",
@@ -2942,7 +2988,7 @@
         },
         {
             "file": "addon/utils/ember-uploader.js",
-            "line": 42,
+            "line": 50,
             "description": "ajax request type (method), by default it will be POST",
             "itemtype": "property",
             "name": "type",
@@ -2954,7 +3000,7 @@
         },
         {
             "file": "addon/utils/ember-uploader.js",
-            "line": 50,
+            "line": 58,
             "description": "Start upload of files and extra data",
             "params": [
                 {
@@ -2988,43 +3034,43 @@
         },
         {
             "message": "unknown tag: observes",
-            "line": " addon/components/ui-uploader.js:151"
+            "line": " addon/components/ui-uploader.js:158"
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " addon/components/ui-uploader.js:151"
+            "line": " addon/components/ui-uploader.js:158"
         },
         {
             "message": "replacing incorrect tag: function with method",
-            "line": " addon/components/ui-uploader.js:178"
+            "line": " addon/components/ui-uploader.js:185"
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " addon/components/ui-uploader.js:178"
+            "line": " addon/components/ui-uploader.js:185"
         },
         {
             "message": "replacing incorrect tag: function with method",
-            "line": " addon/components/ui-uploader.js:188"
+            "line": " addon/components/ui-uploader.js:195"
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " addon/components/ui-uploader.js:188"
+            "line": " addon/components/ui-uploader.js:195"
         },
         {
             "message": "replacing incorrect tag: function with method",
-            "line": " addon/components/ui-uploader.js:199"
+            "line": " addon/components/ui-uploader.js:206"
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " addon/components/ui-uploader.js:199"
+            "line": " addon/components/ui-uploader.js:206"
         },
         {
             "message": "replacing incorrect tag: function with method",
-            "line": " addon/components/ui-uploader.js:217"
+            "line": " addon/components/ui-uploader.js:224"
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " addon/components/ui-uploader.js:217"
+            "line": " addon/components/ui-uploader.js:224"
         },
         {
             "message": "replacing incorrect tag: function with method",
@@ -3072,7 +3118,7 @@
         },
         {
             "message": "Missing item type\nStart upload of files and extra data",
-            "line": " addon/utils/ember-uploader.js:50"
+            "line": " addon/utils/ember-uploader.js:58"
         }
     ]
 }
