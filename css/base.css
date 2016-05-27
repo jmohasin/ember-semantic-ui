@@ -120,6 +120,7 @@ html {
 #container {
   min-width: 960px;
   padding-top: 50px;
+  min-height: 700px;
 }
 .wrap {
   width: 960px;
