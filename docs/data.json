@@ -1618,7 +1618,7 @@
         },
         {
             "file": "addon/components/ui-message.js",
-            "line": 103,
+            "line": 104,
             "description": "close message event",
             "itemtype": "event",
             "name": "closeMessage",
@@ -2520,7 +2520,7 @@
         },
         {
             "file": "addon/mixins/ui-checkbox-base.js",
-            "line": 91,
+            "line": 92,
             "itemtype": "method",
             "name": "setChecked",
             "observes": "\"checked\"",
@@ -3086,15 +3086,15 @@
         },
         {
             "message": "replacing incorrect tag: function with method",
-            "line": " addon/mixins/ui-checkbox-base.js:91"
+            "line": " addon/mixins/ui-checkbox-base.js:92"
         },
         {
             "message": "unknown tag: observes",
-            "line": " addon/mixins/ui-checkbox-base.js:91"
+            "line": " addon/mixins/ui-checkbox-base.js:92"
         },
         {
             "message": "replacing incorrect tag: returns with return",
-            "line": " addon/mixins/ui-checkbox-base.js:91"
+            "line": " addon/mixins/ui-checkbox-base.js:92"
         },
         {
             "message": "replacing incorrect tag: function with method",

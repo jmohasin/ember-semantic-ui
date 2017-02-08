@@ -176,7 +176,8 @@ export default Ember.Component.extend({
     @default &#x27;YYYY-MM-DD&#x27;
     */
     format: &#x27;YYYY-MM-DD&#x27;,
-    didInitAttrs(){
+    init(){
+        this._super(...arguments);
         if(this.value &amp;&amp; moment(this.value).isValid()){
             this.set(&#x27;valueDisplay&#x27;, moment(this.value).format(this.format));
         }

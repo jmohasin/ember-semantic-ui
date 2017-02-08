@@ -202,7 +202,8 @@ export default Ember.Component.extend({
             return this;
         }
     }),
-    didInitAttrs(){
+    init(){
+        this._super(...arguments);
         if(this.get(&#x27;timeout&#x27;) &gt; 0){
             run.later(this, function() {
                 this.send(&#x27;closeMessage&#x27;);

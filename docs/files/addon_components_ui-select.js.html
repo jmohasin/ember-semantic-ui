@@ -163,7 +163,8 @@ export default Ember.Component.extend(UiSelectBase, {
             }
         };
     },
-    didInitAttrs(){
+    init(){
+        this._super(...arguments);
         this.setupSelected();
     },
     isDisplayHolder: Ember.computed(&#x27;_selectedOptions.[]&#x27;, function() {
