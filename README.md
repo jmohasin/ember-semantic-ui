@@ -112,7 +112,6 @@ npm install git+https://github.com/wecatch/ember-semantic-ui --save-dev
 ```
 git clone https://github.com/wecatch/ember-semantic-ui
 npm install
-bower install
 ember server
 ```
 

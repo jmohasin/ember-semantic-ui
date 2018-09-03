@@ -75,8 +75,11 @@
     "broccoli-merge-trees": "^1.1.1",
     "ember-cli-babel": "^6.6.0",
     "ember-cli-htmlbars": "1.1.1",
+    "highlightjs": "^9.10.0",
     "moment": "^2.22.2",
-    "pikaday": "^1.7.0"
+    "pikaday": "^1.7.0",
+    "qunit-notifications": "^1.0.0",
+    "semantic-ui-css": "^2.3.2"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config",
