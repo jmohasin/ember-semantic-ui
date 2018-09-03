@@ -3,7 +3,8 @@
 [![Downloads](https://img.shields.io/npm/dt/ember-semantic-ui.svg)](https://www.npmjs.com/package/ember-semantic-ui)
 [![Version](https://img.shields.io/npm/v/ember-semantic-ui.svg)](https://www.npmjs.com/package/ember-semantic-ui)
 
-This Ember addon support many UI components based on [semantic-ui](http://semantic-ui.com), Anyone can use this addon in their Ember project. 
+This Ember addon support many UI components based on [semantic-ui](http://semantic-ui.com), Anyone can use this addon in their Ember project. This project is forked from main branch with
+removal of bower dependancy.
 
 
 [Demo](http://wecatch.me/ember-semantic-ui/demo/)
