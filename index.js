@@ -18,6 +18,7 @@ module.exports = {
     app.import('node_modules/pikaday/css/pikaday.css');
     app.import('vendor/shims/moment.js');
     app.import('vendor/shims/pikaday.js');
+    app.import('node_modules/semantic-ui-css/semantic.min.js');
 
   },
   postprocessTree: function( type, tree ) {
