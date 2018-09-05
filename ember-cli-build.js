@@ -26,8 +26,8 @@ module.exports = function(defaults) {
   app.import('node_modules/highlightjs/highlight.pack.js');
   app.import('node_modules/highlightjs/styles/default.css');
   
-  // app.import('node_modules/semantic-ui-css/semantic.min.css');
-  // app.import('node_modules/semantic-ui-css/semantic.min.js');
+  //app.import('node_modules/semantic-ui-css/semantic.min.css');
+  app.import('node_modules/semantic-ui-css/semantic.min.js');
 
   /*
     This build file specifies the options for the dummy test app of this
