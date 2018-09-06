@@ -48,6 +48,15 @@ export default Component.extend({
                 }
             }
         };
+
+        if (self.minDate) {
+          options.minDate = self.minDate;
+        }
+
+        if (self.maxDate) {
+          options.maxDate = self.maxDate;
+        }
+
         if(self.lang === 'zh_CN'){
             options.i18n = zh_cn;
         }

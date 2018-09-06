@@ -15,9 +15,9 @@ export default Component.extend({
      * the component style class
      *
      * @property {String} theme
-     * @default ''
+     * @default 'fluid'
      */
-    theme: '',
+    theme: 'fluid',
     /**
      * the component style class
      *
@@ -32,19 +32,6 @@ export default Component.extend({
         this.renderDropDown();
     },
     renderDropDown() {
-        let that = this;
-        this.$().dropdown({
-            onChange(value){
-                if(that.attrs.value){
-                    that.attrs.value.update(value);
-                }
-            }
-        });
-    },
-    didRender(){
-        // re render component then restore default texts
-        if(!this.attrs.value.value){
-            this.$().dropdown('restore defaults');
-        }
+        this.$().dropdown();
     }
 });
