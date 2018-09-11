@@ -110,11 +110,13 @@ export default Component.extend({
                 if(typeof that.attrs.onApprove === 'function'){
                     return that.attrs.onApprove();
                 }
+                return that.sendAction('onApprove');
             },
             onDeny(){
                 if(typeof that.attrs.onDeny === 'function'){
                     return that.attrs.onDeny();
                 }
+                return that.sendAction('onDeny');
             }
 		});
 	}
